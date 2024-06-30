@@ -86,6 +86,13 @@ img{
 .msg-container{
     margin-top: 3rem;
 }
+
+@media (max-width: 700px) {
+    .msg-container {
+        margin-top: 1rem;
+    }
+}
+
 #msg{
     font-size: 3rem;
     background-color: #818181;
