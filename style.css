@@ -35,6 +35,16 @@ img{
 
 }
 
+
+@media (max-width: 700px) {
+    .choices {
+       display: grid;
+       grid-template-columns: repeat(1, 1fr); /* show in column */
+       gap: 10px; /* add some gap between choices */
+     }
+   }
+
+
 #user-score, #computer-score{
     font-size: 5rem;
 }
