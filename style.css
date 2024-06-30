@@ -105,16 +105,15 @@ img{
 
 @media (max-width: 700px) {
     #msg {
-        font-size: 2rem;
+        font-size: 1rem;
         background-color: #818181;
         color: white;
         display: inline;
         border: 2px solid transparent;
-        border-radius: 1rem;
-        padding: 1rem;
+        /* border-radius: 1rem; */
+        /* padding: 1rem; */
     }
 }
-
 
 .copyright{
     margin-top: 2.4rem;
